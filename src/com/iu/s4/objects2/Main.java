@@ -14,6 +14,7 @@ public class Main {
 		int [] ar = rt.t3();
 		
 		System.out.println(ar);
+		
 	}
 
 }

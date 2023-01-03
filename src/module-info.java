@@ -2,7 +2,7 @@
  * 
  */
 /**
- * @author GDJ60
+ * @author Altair
  *
  */
 module GDJ60_Java {
