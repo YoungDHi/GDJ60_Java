@@ -10,7 +10,7 @@ public class Main {
 		
 		mc.start();
 		
-		system.out.println("집에서 추가한 내용");
+		
 		System.out.println("finish");
 	}
 

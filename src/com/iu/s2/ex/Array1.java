@@ -1,4 +1,4 @@
-package com.woo.s3.array;
+package com.iu.s2.ex;
 
 public class Array1 {
 

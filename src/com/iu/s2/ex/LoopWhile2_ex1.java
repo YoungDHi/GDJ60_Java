@@ -1,4 +1,4 @@
-package com.woo.s2.loops;
+package com.iu.s2.ex;
 
 import java.util.Scanner;
 
