@@ -10,6 +10,8 @@ public class Main {
 		
 		mc.start();
 		
+		
+		System.out.println("finish");
 	}
 
 }
