@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Main {
 
 	public static void main(String[] args) {
-		System.out.println("main method 실행");
+		System.out.println("start");
 		MenuController mc = new MenuController();
 		
 		mc.start();
