@@ -15,6 +15,10 @@ public class Monster {
 		System.out.println("생성자 실행");
 	}
 	
+	public Monster(int power) {
+		
+	}
+	
 	//멤버메서드, instance 메서드
 	
 	
