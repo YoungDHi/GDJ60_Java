@@ -4,6 +4,7 @@ public class MonsterMain {
 
 	public static void main(String[] args) {
 		Monster mon1 = new Monster();
+		
 		mon1.power = 10;
 		mon1.hp = 100;
 		Monster mon2 = new Monster();
