@@ -41,7 +41,7 @@ public class MenuController {
 				System.out.println("학생 정보 검색후 출력합니다");
 				Student st = si.findStudent(sts);
 				if(st != null) {
-					sv.viewOne(st);
+					sv.view(st);
 				} else {
 					System.out.println("학생 정보가 없습니다");
 				}
@@ -49,7 +49,7 @@ public class MenuController {
 				
 			} else if(select == 3){
 				System.out.println("전체 정보를 출력합니다");
-				sv.viewList(sts);
+				sv.view(sts);
 				check = true;
 				
 			} else {
