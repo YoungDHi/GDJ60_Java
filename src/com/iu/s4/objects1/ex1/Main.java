@@ -10,7 +10,7 @@ public class Main {
 		
 		mc.start();
 		
-		System.out.println("집에서 추가 후 학원에서 다시 추가");
+		System.out.println("집에서 추가");
 		System.out.println("finish");
 	}
 
