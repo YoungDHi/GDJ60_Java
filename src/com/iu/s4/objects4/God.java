@@ -1,13 +1,16 @@
 package com.iu.s4.objects4;
 
-public class God {
+public final class God {
 	
-	private String name;
-	
+	private static final String MY_NAME="";
+			//final은 변수앞에 붙으면 변수를 상수처럼 써라
 	private static God god;
 		
 	
-	private God() {}
+	private God() {
+	//	this.name = "test";
+		
+	}
 	
 	public static God getInscance() {
 		
@@ -17,13 +20,13 @@ public class God {
 		
 		return God.god ;
 	}
-
-	public String getName() {
-		return name;
-	}
+			//final이 붙으면 오버라이딩 하지 말라는뜻
+	//public final String getName() {
+		//return name;
+	
 
 	public void setName(String name) {
-		this.name = name;
+		//this.name = name;
 	}
 	
 
