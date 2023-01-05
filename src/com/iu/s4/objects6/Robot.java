@@ -26,9 +26,7 @@ public class Robot {
 	public ArmRight getArmRight() {
 		return armRight;
 	}
-	public void setArmRight(ArmRight armRight) {
-		this.armRight = armRight;
-	}
+	
 	
 
 }
